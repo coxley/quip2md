@@ -10,6 +10,27 @@ There's an [existing issue](https://github.com/quip/quip-api/issues/8) on the
 [quip-api](https://github.com/quip/quip-api/) repo but it doesn't seem to be a
 priority. That's where `quip2md` comes in!
 
+## Supported Features
+
+* Headers 1-3
+* Bold
+* Italics
+* Underline [*]
+* Strikethrough [*]
+* Inline Code
+* Hyperlinks
+* Unordered Lists
+* Ordered Lists
+* Checked Lists w/ check marks maintained
+* Nested lists w/ a-z and roman numerals on unordered lists
+* Quote Blocks w/ maintained text styling
+* Code Blocks - including adjacent ones
+
+### Caveats [*]
+* Not every Markdown renderer supports underline the same way. We use `_this_`
+* Not every Markdown renderer supports strikethrough. We use `~~this~~`
+* Highlighted text will be converted with no styling applied
+
 ## Download
 
 ```shell
