@@ -34,7 +34,7 @@ priority. That's where `quip2md` comes in!
 ## Download
 
 ```shell
-go get github.com/coxley/quip2md
+go get -u github.com/coxley/quip2md/...
 ```
 
 ## Usage
