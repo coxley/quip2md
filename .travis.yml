@@ -4,22 +4,15 @@ sudo: false
 
 language: go
 
-# Only the last two Go releases are supported by the Go team with security
-# updates. Any older versions be considered deprecated. Don't bother testing
-# with them.
 go:
-  - 1.9.x
-  - 1.x
+  - master
 
 # Only clone the most recent commit.
 git:
   depth: 1
 
-install: true
-
-# Don't email me the results of the test runs.
-notifications:
-  email: false
+before_script:
+  - go get -d ./...
 
 # script always runs to completion (set +e). If we have linter issues AND a
 # failing test, we want to see both. Configure golangci-lint with a
