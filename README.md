@@ -1,4 +1,4 @@
-# quip2md [![GoDoc](https://godoc.org/github.com/coxley/quip2md?status.svg)](https://godoc.org/github.com/coxley/quip2md)
+# quip2md [![GoDoc](https://godoc.org/github.com/coxley/quip2md?status.svg)](https://godoc.org/github.com/coxley/quip2md) [![Build Status](https://travis-ci.org/coxley/quip2md.svg?branch=master)](https://travis-ci.org/coxley/quip2md)
 
 Quip is a cloud documentation suite which provides a web API for interacting
 with it. While the UI has export options for different formats, it all happens
